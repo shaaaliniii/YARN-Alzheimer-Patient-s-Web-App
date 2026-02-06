@@ -3,8 +3,6 @@
 ## Deployed website link: https://yarn-1.onrender.com
 YARN is an innovative application designed to address the challenges faced by individuals living with Alzheimer's disease. By providing a range of features aimed at cognitive support, task management, emergency assistance, and improving overall quality of life, YARN aims to make a meaningful difference in the lives of both patients and caregivers.
 
-## Video
-https://github.com/Nachi28/YARN/assets/79222622/f0ba2b9b-83b0-4e4b-b960-765f9f7b3fff
 
 ## The problem YARN solves
 
@@ -28,38 +26,4 @@ Alzheimer's disease poses significant challenges for both individuals living wit
 ### Block Diagram
 ![Block Diagram](READMEAssets/block_diag.png)
 
-### SOS Message
-![SOS Message](READMEAssets/SOS_sms.jpg)
-
-
-## Getting Started
-
-To get started with YARN, follow these steps:
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Nachi28/YARN.git
-```
-2. Ensure you have the latest version of Node.js installed.
-
-3. Install all required packages:
-```bash
-npm install
-```
-4. Set up your environment variables in a file named .env with the following format:
-```bash
-TWILIO_ACCOUNT_SID=xxx-xxx
-TWILIO_AUTH_TOKEN=xxx-xxx
-SESSION_SECRET=xxx-xxx
-MONGODB_URI=xxx-xxx
-OPENAI=xxx-xxx
-```
-Make sure to replace xxx-xxx with your actual credentials.
-
-5. Run the application:
-```bash
-npm run devStart
-```
-6. Finally, open your web browser and navigate to http://localhost:5000 to access the application.
 
